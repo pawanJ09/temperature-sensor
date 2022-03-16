@@ -15,7 +15,7 @@ Micropython.
 
 ## Pin Diagram
 
-
+<img src="temperature-sensor-pin-diagram.png">
 
 
 ## Running the application locally
