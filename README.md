@@ -1,7 +1,8 @@
 # Thermostat Sensor
 
 This is my small DIY home project for creating a Thermostat Sensor using Raspberry Pi Pico and 
-Micropython.
+Micropython. The DHT11 device will sense the temperature and humidity of an indoor location and 
+display it on the LCD.
 
 
 ## Requirements
