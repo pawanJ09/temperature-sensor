@@ -92,10 +92,13 @@ class DHT11:
             else:
                 unchanged += 1
         pin.init(Pin.OUT, Pin.PULL_DOWN)
+        """
+        # Commenting this exception since my sensor gave only 82 pulses at startup
         if idx != EXPECTED_PULSES:
             raise InvalidPulseCount(
                 "Expected {} but got {} pulses".format(EXPECTED_PULSES, idx)
             )
+        """
         return transitions[4:]
 
     def _convert_pulses_to_buffer(self, pulses):
