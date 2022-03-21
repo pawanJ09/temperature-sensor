@@ -1,8 +1,10 @@
 # Thermostat Sensor
 
-This is my small DIY home project for creating a Thermostat Sensor using Raspberry Pi Pico and 
-Micropython. The DHT11 device will sense the temperature and humidity of an indoor location and 
-display it on the LCD.
+This is my small DIY home project for creating a Home Temperature and Humidity Sensor using 
+Raspberry Pi Pico and Micropython. The DHT11 device will sense the temperature and humidity of 
+the room and display it on the LCD. This is also integrated with a PIR motion sensor so the LCD 
+will display the current room temperature when the device senses you coming near it 
+to see the temperature on the LCD.
 
 
 ## Requirements
@@ -10,8 +12,12 @@ display it on the LCD.
 - [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 - DHT11 Temperature Humidity sensor
 - 16x2 I2C LCD
-- Jumper cables with M-F connectors
+- Jumper cables with M-M and M-F connectors
 - Breadboard
+- PIR Motion Sensor
+- 3V Buzzer
+- 3V LED
+- 330 ohms resistor
 
 
 ## Pin Diagram
